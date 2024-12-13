@@ -1,4 +1,4 @@
-# Stylish Web Interface
+# New css for https://me.zeith.org
 
 A sleek and modern web interface built with CSS, featuring smooth gradients, responsive design, and elegant button hover effects.
 
