@@ -7,8 +7,3 @@ A sleek and modern web interface built with CSS, featuring smooth gradients, res
 - **Buttons**: Interactive buttons with blur effects and hover animations.
 - **Icons**: Styled social media icons with hover transitions.
 - **Layouts**: Flexible container design for centralized and organized content display.
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/403observant/me.zeith.org-New-css.git
