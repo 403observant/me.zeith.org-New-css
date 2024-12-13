@@ -1,0 +1,129 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  color: #ffffff;
+}
+
+.App {
+  padding: 64px 16px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.root {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+}
+
+h1, h2 {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.layout-element-button {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 16px;
+  margin: 12px 0;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.layout-element-button:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.layout-element-button img {
+  border-radius: 12px;
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+  object-fit: cover;
+}
+
+.layout-element-button span {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.App-logo {
+  border-radius: 20px;
+  height: 120px;
+  width: 120px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+}
+
+.link-set {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-media {
+  margin-top: 32px;
+}
+
+.social-media {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 12px; 
+}
+
+.social-link-icon {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.social-link-icon:hover {
+  opacity: 1;
+}
+
+.social-link-icon img {
+  height: 32px;
+  width: 32px;
+  filter: brightness(0) invert(1);
+}
+
+/* Spacing Utilities */
+.vgap-20 { margin-top: 20px; }
+.vgap-16 { margin-top: 16px; }
+.vgap-10 { margin-top: 10px; }
+.vgap-4 { margin-top: 4px; }
+
+.layout-element-category span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
